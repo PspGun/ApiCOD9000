@@ -2,8 +2,8 @@
 #include <WiFi.h>
 #include <HTTPClient.h>
 
-const char* ssid = "AIS 8/3_2.4G";
-const char* password = "0863925696";
+const char* ssid = "";
+const char* password = "";
 Servo myservo;  //ประกาศตัวแปรแทน Servo
 int pos = 90;   // variable to store the servo position
 String payload = "";
